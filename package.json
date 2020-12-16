@@ -4,6 +4,7 @@
   "description": "drawings using p5.js",
   "main": "index.js",
   "scripts": {
+    "devstart": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,9 +18,5 @@
     "url": "https://github.com/yamilesquivel/drawings-creative-coding/issues"
   },
   "homepage": "https://github.com/yamilesquivel/drawings-creative-coding#readme",
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0"
-  }
+  "dependencies": {}
 }
