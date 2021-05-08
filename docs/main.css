@@ -1586,9 +1586,9 @@
 	}
 
 	body, input, select, textarea {
-		font-family: 'Courier Prime', monospace;
-		font-size: 15pt;
-		font-weight: 300;
+		font-family:"Courier New", monospace;
+		font-size: 13pt;
+		font-weight: 600;
 		line-height: 2;
 	}
 
@@ -1789,7 +1789,7 @@
 		color: #e5474b;
 	}
 	h3 {
-		color: #0366d6 ;
+		color: #0d0580 ;
 	}
 
 	blockquote {
@@ -3215,6 +3215,7 @@
 		z-index: 10002;
 	}
 
+
 		.navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -3361,6 +3362,17 @@
 			}
 
 		}
+
+#p5sketch{
+	display: flex;
+      width: 50%;
+      height: 50%;
+      margin: 0 ;
+      background-color: white;
+			padding: 0;
+}
+
+
 
 /* Banner */
 
