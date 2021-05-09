@@ -13,7 +13,7 @@ function draw() {
   ellipse(random(windowWidth),60,8);
   ellipse(random(windowWidth),70,8);
   ellipse(random(windowWidth),80,8);
-  fill(random(0),0,250,250);
+  fill(random(0),0,0,250);
   ellipse(random(windowWidth),90,random(300));
 
   } 
