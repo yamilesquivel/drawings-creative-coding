@@ -1,7 +1,7 @@
 
 function setup() {
-  createCanvas(windowWidth,90); //lienzo  
-  
+  let canvas = createCanvas(windowWidth-90,90); //lienzo  
+   canvas.parent("p5sketch");
 }
 function draw() {
   background("#065990"); //color del lienzo
