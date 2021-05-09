@@ -4,7 +4,7 @@ function setup() {
    canvas.parent("p5sketch");
 }
 function draw() {
-  background("#065990"); //color del lienzo
+  background("#ffffff"); //color del lienzo
   ellipse(random(windowWidth),10,8);
   ellipse(random(windowWidth),20,8);
   ellipse(random(windowWidth),30,8);
@@ -13,7 +13,7 @@ function draw() {
   ellipse(random(windowWidth),60,8);
   ellipse(random(windowWidth),70,8);
   ellipse(random(windowWidth),80,8);
-  fill(random(100),150,220,200);
+  fill(random(200),10,250,250);
   ellipse(random(windowWidth),90,random(300));
 
   } 
