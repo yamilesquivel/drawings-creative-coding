@@ -13,8 +13,8 @@ let s;
 let em;
 let t ;
 function setup() {
-  createCanvas(windowWidth,windowHeight); //lienzo  
-  
+  let canvas = createCanvas(windowWidth-100,windowHeight); //lienzo  
+  canvas.parent("p5sketch");
   
   presentacion = new oracionesEnObjeto(color(250),2,50,"Hola!,esto es para mostrar la libreria touch.gui de p5.js ",33);
   despedida = new oracionesEnObjeto(color(250),windowHeight/2,windowHeight-10,"Gracias por haber ingresado ;)",33);

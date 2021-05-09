@@ -1,6 +1,6 @@
 
 function setup() {
-  let canvas = createCanvas(windowWidth-90,90); //lienzo  
+  let canvas = createCanvas(windowWidth-90,200); //lienzo  
    canvas.parent("p5sketch");
 }
 function draw() {
@@ -13,7 +13,7 @@ function draw() {
   ellipse(random(windowWidth),60,8);
   ellipse(random(windowWidth),70,8);
   ellipse(random(windowWidth),80,8);
-  fill(random(200),10,250,250);
+  fill(random(250),10,250,250);
   ellipse(random(windowWidth),90,random(300));
 
   } 
