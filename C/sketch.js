@@ -15,4 +15,9 @@ function draw() {
   fill(255,209,random(51),255);
   ellipse(random(windowWidth),90,random(300));
 
+<<<<<<< HEAD
   } 
+=======
+  } 
+ 
+>>>>>>> e5146740025148512b7330768210b027dd8b01bd
